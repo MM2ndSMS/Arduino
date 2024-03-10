@@ -1,0 +1,19 @@
+#코드5
+
+
+char value = 'a';
+float value_dot = 1.2345;
+
+void setup(){
+  Serial.begin(9600)
+  Serial.print("value:");
+  Serial.printin(value);
+  Serial.print("value_dot:");
+  Serial.printin(vlaue_dot);
+}
+
+
+void loop(){
+
+
+}
