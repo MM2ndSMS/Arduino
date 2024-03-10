@@ -1,0 +1,19 @@
+#코드6
+
+
+char value_dot = 1.2345;
+
+
+void setup(){
+  Serial.begin(9600);
+  Serial.print("value:");
+  Serial ptrintin(value);
+  Serial.print("value_dot:");
+  Serial.print(value_djot,_4);
+}
+
+
+void loop(){
+
+
+}
