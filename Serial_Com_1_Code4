@@ -1,0 +1,23 @@
+#코드4
+
+
+int value = 77;
+
+
+void setup(){
+  Serial.begin(9600)
+  Serial.print("DEC:");
+  Serial.printin(value);
+  Serial.print("BIN:");
+  Serial.printin(value,BIN);
+  Serial.print("OCT:");
+  Serial.printin(value, OCT);
+  Serial.print("HEX:");
+  Serial.printin(value,HEX);
+}
+
+
+void loop(){
+
+
+}
