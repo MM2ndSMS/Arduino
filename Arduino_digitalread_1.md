@@ -1,5 +1,5 @@
 ## Arduino_digitalread_1
-# define ledPin 13  //LED 디지털 핀 13번에 연결
+### define ledPin 13  //LED 디지털 핀 13번에 연결
 
 ```언어
 int linesensor_data[5] = {0,0,0,0,0};  //읽은 값을 저장할 변수
