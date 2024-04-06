@@ -1,4 +1,3 @@
-```언어
 #define ledPin 13
 #define inPin 7 
 int val = 0; 
@@ -16,4 +15,4 @@ void loop() {
   Serial.println(val);
   digitalWrite(ledPin, val);  
 }
-```
+
