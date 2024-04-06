@@ -1,4 +1,3 @@
-```언어
 #include <NewPing.h>
 
 #define ledPin 13  // LED 디지털 핀 13번에 연결
@@ -71,4 +70,4 @@ void loop() {
 
   delay(100); // 임의의 딜레이
 }
-```
+
