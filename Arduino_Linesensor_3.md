@@ -52,15 +52,14 @@ int read_digital_line_sensor(void)
   }
 
 }
-```
 
 void setup() {
   int i;
-  pinMode(ledPin, OUTPUT);    
+  pinMode(ledPin, OUTPUT);   
 
   for(i=0;i<5;i++)
   {
-      pinMode(linesensor_pin[i], INPUT);      
+      pinMode(linesensor_pin[i], INPUT);    
   }
   
   Serial.begin(9600);
@@ -69,7 +68,7 @@ void setup() {
 void loop() {
   int i;
   int sum = 0;
-  sum = read_digital_line_sensor();    // line read 함수 실행
+  sum = read_digital_line_sensor(); 
 
   Serial.print("Input data = ");
   for(i=0;i<5;i++)
@@ -77,5 +76,6 @@ void loop() {
     Serial.print(linesensor_data[i]);
     Serial.print(" ");
   }
-  Serial.println(sum);
-}
+  Serial.print(sum); 
+  Serial.println(" ");
+```
