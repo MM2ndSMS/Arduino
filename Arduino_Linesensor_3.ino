@@ -1,4 +1,3 @@
-## Arduino_Linesensor_3
 #define ledPin 13  //LED 디지털 핀 13번에 연결
 #define LINE_DETECT_WHITE  1
 
@@ -76,5 +75,4 @@ void loop() {
     Serial.print(" ");
   }
   Serial.print(sum); 
-  Serial.println(" ");
-
+  Serial.println(" "); 
